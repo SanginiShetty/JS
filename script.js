@@ -61,12 +61,62 @@
 //     div.innerText = `New unique value ${idx}`;
 //     idx++;
 // }
+////getAttribute 
+// let div = document.querySelector("div");
+// console.log(div);
 
-let div = document.querySelector("div");
-console.log(div);
+// let id = div.getAttribute("id");
+// console.log(id); //node value
 
-let id = div.getAttribute("id");
-console.log(id);
+// let name = div.getAttribute("name");
+// console.log(name); //name attribute value
 
-let name = div.getAttribute("name");
-console.log(name);
+// let para = document.querySelector("p");
+// console.log(para.getAttribute("class"));
+
+//setAttribute
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class", "newClass"));
+
+// let div = document.querySelector("div");
+// div.style.backgroundColor = "blue";
+// div.style.color = "white";
+// div.style.fontSize = "29px";
+// div.innerText = "Hello";
+// div.style.visibility = "hidden";
+
+// let newButton = document.createElement("button");
+// newButton.innerText = "Click me!"
+// console.log(newButton);
+
+// let div = document.querySelector("div");
+// div.append(newButton);
+// div.prepend(newButton);
+// div.before(newButton);
+// div.after(newButton);
+
+// let para = document.querySelector("p");
+// para.after(newButton);
+
+
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>Hi, I am new!</i>";
+
+// document.querySelector("body").prepend(newHeading);
+
+// let parag = document.querySelector("p");
+// parag.remove();
+
+
+// // Q3 Create a new button element. Give it a text "Click me", background color of red & text color of white. Insert the button as thee first element inside the body tag.
+
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click me";
+
+// newBtn.style.color ="white";
+// newBtn.style.backgroundColor= "red";
+
+// document.querySelector("body").append(newBtn);
+
+// // Q4 Create a <p> tag in html, give it a class  some styling. Now create a new class in CSS and try to append this class to the <p> element. Did you notice, how you overwrite the class name when you add a new one? Solve this problem using classList.
+
