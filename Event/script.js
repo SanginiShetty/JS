@@ -32,11 +32,50 @@
 //         console.log(evt.clientX, evt.clientY);
 //     };
 // });
-document.addEventListener("DOMContentLoaded", () => {
-    let btn1 = document.querySelector('#btn1');
-    btn1.addEventListener("click", () => {
-        console.log("button1 was clicked");
+// document.addEventListener("DOMContentLoaded", () => {
+//     let btn1 = document.querySelector('#btn1');
+//     btn1.addEventListener("click", () => {
+//         console.log("button1 was clicked - handler1");
+//     });
+
+//     btn1.addEventListener("click", (evt) => {
+//         console.log("button1 was clicked - handler2");
+//         console.log(evt);
+//         console.log(evt.type);
+//     });
+//     btn1.addEventListener("click", () => {
+//         console.log("button1 was clicked - handler3");
+//     });
+//     btn1.addEventListener("click", () => {
+//         console.log("button1 was clicked - handler4");
+//     });
+//     const handler4 = () => {
+//         console.log("button1 was clicked - handler4");
+//     }
+
+//     btn1.removeEventListener("click", () => {
+//         console.log("button1 was clicked - handler3");
+//     });
+//     btn1.removeEventListener('click', handler4)
+
+// });
+
+// Q1. Create a toggle button that changes the screen to dark-mode when clicked & light-mode when clicked again.
+document.addEventListener('DOMContentLoaded', () => { 
+
+    let modeBtn = document.querySelector("#mode");
+    let currMode = "light";
+    modeBtn.addEventListener("click", () => {
+        // console.log("you are trying to change the mode");
+        if (currMode === "light"){
+            currMode = "dark";
+            document.querySelector("body").style.backgroundColor = "black";
+        }
+        else{
+            currMode = "light";
+            document.querySelector("body").style.backgroundColor = "white";
+        }
+
+        console.log(currMode);
     });
 });
-
-
