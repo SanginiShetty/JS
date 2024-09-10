@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #463F3A;
+    background-color: #8A817C;
     text-align: center;
 }
 
@@ -31,11 +31,16 @@ body {
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
     color: #b0413e;
+    background-color: #F4F3EE;
 }
 
 #reset-button {
-    
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #463F3A;
+    color: #F4F3EE;
+    border-radius: 1rem;
 }
