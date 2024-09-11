@@ -44,3 +44,24 @@ body {
     color: #F4F3EE;
     border-radius: 1rem;
 }
+
+#new-button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #463F3A;
+    color: #F4F3EE;
+    border-radius: 1rem;
+}
+
+#msg {
+   color:#F4F3EE;
+   font-size: 8vmin;
+}
+
+.msg-container {
+    height: 30vmin;
+}
+
+.hide {
+    display: none;
+}
